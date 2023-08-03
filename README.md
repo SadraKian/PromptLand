@@ -1,1 +1,1 @@
-PromptLand is a platform to Create, Share and access powerful AI generated Prompts
+PromptLand is a platform to Discover, Create and Share powerful AI-generated Prompts
