@@ -8,7 +8,14 @@ import { useState,useEffect } from 'react'
 function Nav() {
   const isUserLoggedIn = true;
 
-  const [providers,setProviders] = useState(null)
+  const [providers,setProviders] = useState(null);
+  useEffect(() => {
+  const SetProviders = async () => {
+    const response = await getProviders();
+    setProviders(response);
+  }  
+  SetProviders();
+  },[])
 
   return (
     <nav className='flex-between w-full mb-16 pt-3'>
@@ -16,6 +23,7 @@ function Nav() {
         <Image src="/assets/images/logo.svg" alt='PromptLand' width={30} height={30} className='object-contain' />
         <p className='logo_text'>PromptLand </p>
       </Link>
+      {/* Dekstop navigation */}
       <div className='sm:flex hidden'>
         {isUserLoggedIn ? (
          <div className='flex gap-3 md:gap-3'>
@@ -32,10 +40,37 @@ function Nav() {
          </div> 
         ): (
           <>
-
+          {
+            providers && Object.values(providers).map((provider) => {
+              <button key={provider.name} onClick={() => signIn(provider.id)} type='button' className='black_btn'>Sign in</button>
+            })
+          }
           </>
         )}
       </div>
+
+      {/* Mobile Navigation */}
+        {
+          isUserLoggedIn? (
+            <div className="flex sm:hidden">
+              <Image
+             src="/assets/images/SadraKian.jpg"
+             alt='UserName'
+             width={37} 
+             height={37} 
+             className='rounded-full' />
+            </div>
+          ) : (
+            <>
+          {
+            providers && Object.values(providers).map((provider) => {
+              <button key={provider.name} onClick={() => signIn(provider.id)} type='button' className='black_btn'>Sign in</button>
+            })
+          }
+          </>
+          )
+        }
+      
     </nav>
   )
 }
