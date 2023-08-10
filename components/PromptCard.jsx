@@ -3,9 +3,20 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { useSession } from "next-auth/react";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 function PromptCard({ post, handleTagClick, handleDelete, handleEdit }) {
-  const [copied, setCopied] = useState(false);
+  const [copied, setCopied] = useState("");
+  const { data: session } = useSession();
+  const pathName = usePathname();
+
+  const handleCopy = () => {
+    setCopied(post.prompt);
+    navigator.clipboard.writeText(post.prompt);
+    setTimeout(() => setCopied(""), 5000);
+    console.log(copied);
+  };
+
   return (
     <div className="prompt_card">
       <div className="flex justify-between items-start gap-5">
@@ -25,10 +36,36 @@ function PromptCard({ post, handleTagClick, handleDelete, handleEdit }) {
             </p>
           </div>
         </div>
-        <div className="copy_btn">
-          <Image src="/assets/images/copy.png" width={17} height={17} />
+        <div onClick={handleCopy} className="copy_btn">
+          <Image
+            src={copied ? "/assets/icons/tick.svg" : "/assets/images/copy.png"}
+            alt={copied ? "Copied" : "Copy"}
+            title={copied ? "Copied" : "Copy"}
+            width={17}
+            height={17}
+          />
         </div>
       </div>
+
+      <p className="text-gray-700 font-satoshi text-sm my-4">{post.prompt}</p>
+
+      <p
+        className="font-inter blue_gradient text-sm cursor-pointer"
+        onClick={() => {
+          handleTagClick && handleTagClick(post.tag);
+        }}>
+        {post.tag}
+      </p>
+      {session?.user.id === post.creator._id && pathName === "/profile" && (
+        <div className="flex-center gap-4 mt-5 border-t border-gray-200 pt-3">
+          <button className="green_gradient" onClick={handleEdit}>
+            Edit
+          </button>
+          <button className="orange_gradient" onClick={handleDelete}>
+            Delete
+          </button>
+        </div>
+      )}
     </div>
   );
 }
