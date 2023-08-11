@@ -10,14 +10,14 @@ With the fast growth of AI chat models and people interacting with them, There a
   <br /> <hr/>
   <section>
     <h3>Technologies used</h3>
-    <img href="https://github.com/SadraKian/PromptLand/assets/128605953/6d86fade-454b-4877-89de-4b1dbe15d2a2" title="HTML" width="40" height="40" />
-    <img href="https://github.com/SadraKian/PromptLand/assets/128605953/6d86fade-454b-4877-89de-4b1dbe15d2a2](https://github.com/SadraKian/PromptLand/assets/128605953/ec6a1a00-b0f7-42ce-9b8f-2ceee55bc0b0)" title="CSS" width="40" height="40" />
-      <img href="https://github.com/SadraKian/PromptLand/assets/128605953/6d86fade-454b-4877-89de-4b1dbe15d2a2](https://github.com/SadraKian/PromptLand/assets/128605953/8d537b82-5b08-410c-833d-7383f575e8b1)" title="JavaScript" width="40" height="40" />
-      <img href="https://github.com/SadraKian/PromptLand/assets/128605953/6d86fade-454b-4877-89de-4b1dbe15d2a2](https://github.com/SadraKian/PromptLand/assets/128605953/7eb79375-8587-43ab-84b8-82a0b63a7899)" title="React" width="40" height="40" />
-       <img href="https://github.com/SadraKian/PromptLand/assets/128605953/6d86fade-454b-4877-89de-4b1dbe15d2a2](https://github.com/SadraKian/PromptLand/assets/128605953/2bd7b0f3-7747-4ed0-8b6b-3acbf0031b9b)" title="Next JS" width="40" height="40" />
-        <img href="https://github.com/SadraKian/PromptLand/assets/128605953/b493dc86-491c-4590-9946-3683a26d7ce0" title="TailwindCSS" width="40" height="40" />
-        <img href="https://github.com/SadraKian/PromptLand/assets/128605953/2be5bcad-9488-4f96-99b1-07f4cde2ae2b" title="MongoDB" width="40" height="40" />
-        <img href="https://github.com/SadraKian/PromptLand/assets/128605953/37e833c1-e801-47fd-b69f-603555ebd290" title="Next Auth" width="40" height="40">
+    <img src="https://github.com/SadraKian/PromptLand/assets/128605953/6d86fade-454b-4877-89de-4b1dbe15d2a2" title="HTML" width="40" height="40" />
+    <img src="https://github.com/SadraKian/PromptLand/assets/128605953/6d86fade-454b-4877-89de-4b1dbe15d2a2](https://github.com/SadraKian/PromptLand/assets/128605953/ec6a1a00-b0f7-42ce-9b8f-2ceee55bc0b0)" title="CSS" width="40" height="40" />
+      <img src="https://github.com/SadraKian/PromptLand/assets/128605953/6d86fade-454b-4877-89de-4b1dbe15d2a2](https://github.com/SadraKian/PromptLand/assets/128605953/8d537b82-5b08-410c-833d-7383f575e8b1)" title="JavaScript" width="40" height="40" />
+      <img src="https://github.com/SadraKian/PromptLand/assets/128605953/6d86fade-454b-4877-89de-4b1dbe15d2a2](https://github.com/SadraKian/PromptLand/assets/128605953/7eb79375-8587-43ab-84b8-82a0b63a7899)" title="React" width="40" height="40" />
+       <img src="https://github.com/SadraKian/PromptLand/assets/128605953/6d86fade-454b-4877-89de-4b1dbe15d2a2](https://github.com/SadraKian/PromptLand/assets/128605953/2bd7b0f3-7747-4ed0-8b6b-3acbf0031b9b)" title="Next JS" width="40" height="40" />
+        <img src="https://github.com/SadraKian/PromptLand/assets/128605953/b493dc86-491c-4590-9946-3683a26d7ce0" title="TailwindCSS" width="40" height="40" />
+        <img src="https://github.com/SadraKian/PromptLand/assets/128605953/2be5bcad-9488-4f96-99b1-07f4cde2ae2b" title="MongoDB" width="40" height="40" />
+        <img src="https://github.com/SadraKian/PromptLand/assets/128605953/37e833c1-e801-47fd-b69f-603555ebd290" title="Next Auth" width="40" height="40">
   </section>
 <hr />
   My mentor for building this project: <a href="https://github.com/adrianhajdin">Adrian Hajdin</a>
