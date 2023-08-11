@@ -14,10 +14,8 @@ function Profile({ name, desc, data, handleEdit, handleDelete }) {
           <PromptCard
             key={post.id}
             post={post}
-            handleEdit={() => {
-              handleEdit && handleEdit(post);
-            }}
-            handleDelete={() => handleDelete && handleDelete(post)}
+            handleEdit={handleEdit}
+            handleDelete={handleDelete}
           />
         ))}
       </div>

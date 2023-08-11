@@ -54,20 +54,21 @@ function PromptCard({ post, handleTagClick, handleDelete, handleEdit }) {
         }}>
         {post.tag}
       </p>
-      {session?.user.id === post.creator._id && pathName.includes("/profile") && (
-        <div className="flex-center gap-4 mt-5 border-t border-gray-200 pt-3">
-          <button
-            className="font-inter text-sm cursor-pointer green_gradient"
-            onClick={handleEdit}>
-            Edit
-          </button>
-          <button
-            className="font-inter text-sm cursor-pointer orange_gradient"
-            onClick={handleDelete}>
-            Delete
-          </button>
-        </div>
-      )}
+      {session?.user.id === post.creator._id &&
+        pathName.includes("/profile") && (
+          <div className="flex-center gap-4 mt-5 border-t border-gray-200 pt-3">
+            <button
+              className="font-inter text-sm cursor-pointer green_gradient"
+              onClick={() => handleEdit(post)}>
+              Edit
+            </button>
+            <button
+              className="font-inter text-sm cursor-pointer orange_gradient"
+              onClick={() => handleDelete(post)}>
+              Delete
+            </button>
+          </div>
+        )}
     </div>
   );
 }
