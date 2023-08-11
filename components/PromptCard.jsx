@@ -58,10 +58,14 @@ function PromptCard({ post, handleTagClick, handleDelete, handleEdit }) {
       </p>
       {session?.user.id === post.creator._id && pathName === "/profile" && (
         <div className="flex-center gap-4 mt-5 border-t border-gray-200 pt-3">
-          <button className="green_gradient" onClick={handleEdit}>
+          <button
+            className="font-inter text-sm cursor-pointer green_gradient"
+            onClick={handleEdit}>
             Edit
           </button>
-          <button className="orange_gradient" onClick={handleDelete}>
+          <button
+            className="font-inter text-sm cursor-pointer orange_gradient"
+            onClick={handleDelete}>
             Delete
           </button>
         </div>
