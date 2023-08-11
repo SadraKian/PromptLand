@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useSession } from "next-auth/react";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
@@ -9,12 +9,11 @@ function PromptCard({ post, handleTagClick, handleDelete, handleEdit }) {
   const [copied, setCopied] = useState("");
   const { data: session } = useSession();
   const pathName = usePathname();
-
+  console.log(session.user.id);
   const handleCopy = () => {
     setCopied(post.prompt);
     navigator.clipboard.writeText(post.prompt);
     setTimeout(() => setCopied(""), 5000);
-    console.log(copied);
   };
 
   return (
