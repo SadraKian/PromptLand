@@ -50,8 +50,10 @@ function Feed() {
     );
   };
 
-  const handleTagClick = (tag) => {
-    setSearchText(tag);
+  const handleTagClick = (tagName) => {
+    setSearchText(tagName);
+    const results = filterPosts(tagName);
+    setsearchedResults(results);
   };
 
   return (
