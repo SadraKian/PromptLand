@@ -18,7 +18,7 @@ With the fast growth of AI chat models and people interacting with them, There a
         <img src="https://github.com/SadraKian/PromptLand/assets/128605953/b493dc86-491c-4590-9946-3683a26d7ce0" title="TailwindCSS" width="40" height="40" />
         <img src="https://github.com/SadraKian/PromptLand/assets/128605953/2be5bcad-9488-4f96-99b1-07f4cde2ae2b" title="MongoDB" width="40" height="40" />
         <img src="https://github.com/SadraKian/PromptLand/assets/128605953/37e833c1-e801-47fd-b69f-603555ebd290" title="Next Auth" width="40" height="40">
-        <img src="https://github.com/SadraKian/PromptLand/assets/128605953/7cb667ca-fb57-49db-a0e7-60e73391fc1f" title="Node JS" width="40" height="40">
+        <img src="https://github.com/SadraKian/PromptLand/assets/128605953/7c276d2d-847d-4ad1-9054-22d1beb63d59" title="Node JS" width="40" height="40">
   </section>
 <hr />
   My mentor for building this project:  <a href="https://github.com/adrianhajdin" target="_blank">Adrian Hajdin</a>
