@@ -9,4 +9,5 @@ With the fast growth of AI chat models and people interacting with them, There a
 <a href="https://prompt-land-mu.vercel.app/">Visit the website</a>
 <hr />
   My mentor for building this project: <a href="https://github.com/adrianhajdin">Adrian Hajdin</a>
+  <br />
 #javascriptmastery
