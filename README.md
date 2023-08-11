@@ -5,8 +5,8 @@ With the fast growth of AI chat models and people interacting with them, There a
 <h3>Let your imagination run wild with powerful and creative AI prompts</h3>
 <br /> <br />
 <img src="https://github.com/SadraKian/PromptLand/assets/128605953/dacd5805-4f72-4f23-8497-087414c52214" width="800" height="400" />
-  <br /><br />
-<a href="https://prompt-land-mu.vercel.app/" target="_blank">Visit the website</a>
+  <br /><br /><br /><br />
+<a href="https://prompt-land-mu.vercel.app/" target="_blank">Visit the PromptLand website</a>
   <br /> <hr/>
   <section>
     <h3>Technologies used</h3>
@@ -21,5 +21,5 @@ With the fast growth of AI chat models and people interacting with them, There a
   </section>
 <hr />
   My mentor for building this project:  <a href="https://github.com/adrianhajdin" target="_blank">Adrian Hajdin</a>
-  <br />
+  <br /> <br />
 <a href="https://www.youtube.com/@javascriptmastery" target="_blank" >#javascriptmastery</a>
