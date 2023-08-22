@@ -9,7 +9,8 @@ With the fast growth of AI chat models and people interacting with them, there a
 ## Let your imagination run wild with powerful and creative AI prompts
 
 <img src="https://github.com/SadraKian/PromptLand/assets/128605953/dacd5805-4f72-4f23-8497-087414c52214" width="800" height="400" />
-<br>
+
+
 [Visit the PromptLand website](https://prompt-land-mu.vercel.app/)
 
 ---
