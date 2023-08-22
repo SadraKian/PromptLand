@@ -21,7 +21,7 @@ With the fast growth of AI chat models and people interacting with them, There a
         <img src="https://github.com/SadraKian/PromptLand/assets/128605953/7c276d2d-847d-4ad1-9054-22d1beb63d59" title="Node JS" alt="Node JS" width="40" height="40">
   </section>
 <hr />
-<h2>How to run </h2>
+# How to run 
 - For running this project on your local system you should have node JS installed. <a href="https://nodejs.org/en/download"></a>
 -`cd /path/to/PromptLand`
 - Run `npm install`
