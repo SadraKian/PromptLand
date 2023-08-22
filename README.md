@@ -21,6 +21,22 @@ With the fast growth of AI chat models and people interacting with them, There a
         <img src="https://github.com/SadraKian/PromptLand/assets/128605953/7c276d2d-847d-4ad1-9054-22d1beb63d59" title="Node JS" alt="Node JS" width="40" height="40">
   </section>
 <hr />
+<h2>How to run </h2>
+- For running this project on your local system you should have node JS installed. <a href="https://nodejs.org/en/download"></a>
+-`cd /path/to/PromptLand`
+- Run `npm install`
+- you should go and Create an account inside <a href="https://www.mongodb.com/">MongoDB Website</a> and Create a database. adjust the network access and user access then choose the connect option then drivers and then select node JS to copy your MongoDB URI and use it in your environment variables file ( `.env` ) or directly inside `/utils/database.js` ( not recommended )
+- You should go and create a project inside <a>Google Cloud website Console</a> so that you can implement the sign-in with Google option. Create an OAuth 2.0 Client add the needed information. Add your URL to the Authorized Redirect URIs website and add your URL plus /api/auth/callback/google ( `https://example.com/api/auth/callback/google` ) there too. then use your Google ID and Google client secret inside the environment variables file ( `.env` ) or directly inside `/app/api/auth/[...nextauth]/route.js` ( not recommended ) 
+- Run `npm run dev` to run the project locally
+- You can go to <a href="https://vercel.com/">Vercel website</a>( Next JS maintainers ) Create an account and deploy your website for free to the web!!
+- For more information, you can refer to the following docs
+<a href="https://nextjs.org/">Next JS Documantions</a><br>
+<a href="https://www.mongodb.com/docs/manual/core/document/">MongoDB Documantions</a><br>
+<a href="https://next-auth.js.org/">Next Auth Documantions</a><br>
+<a href="https://cloud.google.com/docs">Google Cloud Documantions</a><br>
+<a href="[https://nextjs.org/](https://react.dev/)">React Documantions</a><br>
+<a href="https://tailwindcss.com/">Tailwind CSS Documantions</a><br>
+<hr />
   My mentor for building this project:  <a href="https://github.com/adrianhajdin" target="_blank">Adrian Hajdin</a>
   <br /> <br />
 <a href="https://www.youtube.com/@javascriptmastery" target="_blank" >#javascriptmastery</a>
