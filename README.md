@@ -17,15 +17,8 @@ With the fast growth of AI chat models and people interacting with them, there a
 
 ## Technologies Used
 
- <img src="https://github.com/SadraKian/PromptLand/assets/128605953/6d86fade-454b-4877-89de-4b1dbe15d2a2" title="HTML" alt="HTML"  width="40" height="40" />&nbsp;
-    <img src="https://github.com/SadraKian/PromptLand/assets/128605953/ec6a1a00-b0f7-42ce-9b8f-2ceee55bc0b0" title="CSS" alt="CSS" width="40" height="40" />&nbsp;
-      <img src="https://github.com/SadraKian/PromptLand/assets/128605953/8d537b82-5b08-410c-833d-7383f575e8b1" title="JavaScript" alt="JavaScript" width="40" height="40" />&nbsp;
-      <img src="https://github.com/SadraKian/PromptLand/assets/128605953/7eb79375-8587-43ab-84b8-82a0b63a7899" title="React" alt="React" width="40" height="40" />&nbsp;
-       <img src="https://github.com/SadraKian/PromptLand/assets/128605953/2bd7b0f3-7747-4ed0-8b6b-3acbf0031b9b" title="Next JS" alt="Next JS" width="40" height="40" />&nbsp;
-        <img src="https://github.com/SadraKian/PromptLand/assets/128605953/b493dc86-491c-4590-9946-3683a26d7ce0" title="TailwindCSS" alt="TailwindCSS" width="40" height="40" />&nbsp;
-        <img src="https://github.com/SadraKian/PromptLand/assets/128605953/2be5bcad-9488-4f96-99b1-07f4cde2ae2b" title="MongoDB" alt="MongoDB" width="40" height="40" />&nbsp;
-        <img src="https://github.com/SadraKian/PromptLand/assets/128605953/37e833c1-e801-47fd-b69f-603555ebd290" title="Next Auth" alt="Next Auth" width="40" height="40">&nbsp;
-        <img src="https://github.com/SadraKian/PromptLand/assets/128605953/7c276d2d-847d-4ad1-9054-22d1beb63d59" title="Node JS" alt="Node JS" width="40" height="40">
+ 
+<img src="https://skillicons.dev/icons?i=next,react,javascript,tailwind,mongodb,googlecloud,html,css,nodejs" />
 
 ---
 
@@ -51,10 +44,6 @@ Follow these steps:
 - Use your Google ID and Google client secret in the environment variables file (`.env`) or directly in `/app/api/auth/[...nextauth]/route.js`.
 
 5. Start the project locally: `npm run dev`
-
-6. Deploy to Vercel (optional):
-- Create an account on [Vercel](https://vercel.com/)( Next JS Dev Team )
-- You can Deploy your websites for free to the web!!
 
 For more information, consult the documentation for each technology.
 
